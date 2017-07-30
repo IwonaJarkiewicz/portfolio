@@ -1,34 +1,57 @@
 * {
     box-sizing: border-box;
 }
+
 body {
-  margin: 0;
-/*  dodanie fontów z google fonts*/
+    margin: 0;
+    /*  dodanie fontów z google fonts*/
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     color: #291f1a;
-    
 }
+
+
 /*Main menu Styles Start*/
+
 #main-nav {
     position: fixed;
     width: 100%;
     background-color: #fff;
-    
+/*    rgba() prześwitywanie*/
 }
-#main-nav > ul {
+
+#main-nav>ul {
     float: right;
 }
-#main-nav > ul > li {
+
+#main-nav>ul>li {
     display: inline-block;
     list-style: none;
 }
-#main-nav > ul > li > a {
+
+#main-nav>ul>li>a {
     color: #1ac056;
     font-weight: 300;
     text-decoration: none;
 }
-#main-nav > ul > li > a:hover {
+
+#main-nav>ul>li>a:hover {
     color: #291f1a;
 }
+
+
 /*Main Menu Style Start*/
+
+#main-header {
+    background-image: url(../img/header-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#main-header .main-header-content {
+    padding: 30vh;
+}
+
+#main-header .main-header-content h1 {
+    font-family: 'Roboto', 'sans-serif';
+}
