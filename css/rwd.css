@@ -1,4 +1,4 @@
-@media all and (max-witdh: 1200px) {
+@media all and (max-width: 1200px) {
     /*  wyświetli nam się wg stylu z style.css  */
     #portfolio .portfolio.items .single-portfolio-item {
         width: 50%;
@@ -8,14 +8,30 @@
     }
 }
 
-@media all and (max-witdh: 992px) {
-    
+@media all and (max-width: 992px) {
+    #main-nav .toggle {
+        display: block;
+        padding: 0 20px;
+        color: #1ac056;
+        background-color: #fff;
+        font-size: 20px;
+        line-height: 60px;
+        text-decoration: none;
+        border: none;
+        text-align: right;
+    }
+    #main-nav ul {
+        display: none;
+    }
+    #drop:checked+ul {
+        display: block;
+    }
+    #main-nav > ul > li {
+        display: block;
+        width: 100%;
+        padding: 20px;
+        text-align: right;
+    }
 }
 
-@media all and (max-witdh: 768px) {
-    
-}
-
-@media all and (max-witdh: 480px) {
-    
-}
+@media all and (max-width: 768px) {}
