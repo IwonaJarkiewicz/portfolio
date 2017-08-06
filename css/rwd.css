@@ -1,0 +1,21 @@
+@media all and (max-witdh: 1200px) {
+    /*  wyświetli nam się wg stylu z style.css  */
+    #portfolio .portfolio.items .single-portfolio-item {
+        width: 50%;
+    }
+    #portfolio .portfolio.items .single-portfolio-item {
+        width: 100%;
+    }
+}
+
+@media all and (max-witdh: 992px) {
+    
+}
+
+@media all and (max-witdh: 768px) {
+    
+}
+
+@media all and (max-witdh: 480px) {
+    
+}
